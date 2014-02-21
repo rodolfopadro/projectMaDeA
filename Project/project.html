@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>MADEA Webpage</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script type="text/javascript" src="jquery-1.4.2.js"></script>
 	<script type="text/javascript" src="coin-slider.min.js"></script>
 	<link rel="stylesheet" href="coin-slider-styles.css" type="text/css" />
@@ -22,8 +23,27 @@
 	</head>
 	<body>		
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <div id="coin-slider">
+    <header class="header"><b>MaDeA Project</b></header>
+    <div id="coin-slider" class="slide">
+    	<a href="http://es.tinypic.com?ref=sp9j5f" target="_blank">
+    		<img src="http://i61.tinypic.com/sp9j5f.jpg"></a>
+
+			<a href="http://es.tinypic.com?ref=zmmo3p" target="_blank">
+				<img src="http://i58.tinypic.com/zmmo3p.jpg"></a>
+				
+			<a href="http://es.tinypic.com?ref=2e2jmle" target="_blank">
+				<img src="http://i59.tinypic.com/2e2jmle.jpg"></a>
+
+			<a href="http://es.tinypic.com?ref=15rief5" target="_blank">
+				<img src="http://i57.tinypic.com/15rief5.jpg"></a>
+
+		</div>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#coin-slider').coinslider({ width: 900, navigation: false, delay: 5000, height:300});
+			});
+			
+		</script>
     	
     </div>
     <div class="container">
