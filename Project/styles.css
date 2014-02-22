@@ -3,4 +3,32 @@ body{
 }
 .container{
 	background-color: #CCCCCC;
+	width: 900px;
+	margin-left: 20%;
+	color:#398439;
 }
+.slide{
+	margin-left:20%;
+}
+.header{
+	text-align: center;
+	font-size: 50px;
+	color:#BCE8F1;
+}
+.head{
+	color:#419641;
+}
+
+#p1{
+	color:#000000;
+	font-size:large;
+}
+#sider{
+	background-color:#419641;
+	height:800px;
+}
+
+.btns{
+	margin-top:10%;
+}
+
