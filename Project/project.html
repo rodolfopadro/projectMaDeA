@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>MADEA Webpage</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script type="text/javascript" src="jquery-1.4.2.js"></script>
 	<script type="text/javascript" src="coin-slider.min.js"></script>
 	<link rel="stylesheet" href="coin-slider-styles.css" type="text/css" />
@@ -22,15 +23,61 @@
 	</head>
 	<body>		
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <div id="coin-slider">
+    <header class="header"><b>MaDeA Project</b></header>
+    <div id="coin-slider" class="slide">
+    	<a href="http://es.tinypic.com?ref=sp9j5f" target="_blank">
+    		<img src="http://i61.tinypic.com/sp9j5f.jpg"></a>
+
+			<a href="http://es.tinypic.com?ref=zmmo3p" target="_blank">
+				<img src="http://i58.tinypic.com/zmmo3p.jpg"></a>
+				
+			<a href="http://es.tinypic.com?ref=2e2jmle" target="_blank">
+				<img src="http://i59.tinypic.com/2e2jmle.jpg"></a>
+
+			<a href="http://es.tinypic.com?ref=15rief5" target="_blank">
+				<img src="http://i57.tinypic.com/15rief5.jpg"></a>
+
+		</div>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#coin-slider').coinslider({ width: 900, navigation: false, delay: 5000, height:300});
+			});
+			
+		</script>
     	
     </div>
     <div class="container">
     	<div class="col-md-9" id = "main">
-    		
+    		<h1 class="sub">What is it?</h1>
+    		<p id="p1">MaDeA (Manual de Desordenes Alimenticios) is an app proposal with the vision of instructing and helping parents about the different esting disorders.
+    			This application will contain a vast range of utilities in order to help the parents to understand, detect and know what to do when an eating disorder appears in their houses.
+				</br>- Handbook with information of the principal eating disorders.
+				</br>- A map with institutions specialized in eating disorders.
+				</br>- An index of another eating disorder web pages, pages of place where you can find help.
+				</br>- Fast call near hospital button (configurable):
+				</br></br>a) Nearest hospital.
+				</br>b) Nearest institution in a specific eating disorder categories.
+				</br>c) Specific institution.
+
+    			</p>
+    			
+    			<h1>Why?</h1>
+    			<p id="p1">
+    				-38% of the people in Jalisco suffer of an eating disorder. (Televisa Guadalajara,2013)
+					</br>-3 out of 10 people diagnosed with an eating disorder is a man.
+					</br>-Cases seem to be increasing.
+					</br>-There are a lot of people who suffer of this and don't search for help. 
+				</br></br>We believe sometimes information of this kind can be difficult to understand. 
+				And the first thing to detect a problem is to learn about it. 
+				That's why, we decided to make this app so we can make information understandable and easy to obtain so that parents can be informed about what the sickness is about, it's symptoms and what they can do to help their children.
+    			</p>
     	</div>
 		<div class="col-md-3" id = "sider">
+			<button type="button" class="btn btn-success btn-lg btn-block btns">Home</button>
+			<button type="button" class="btn btn-success btn-lg btn-block btns">Facts</button>
+			<button type="button" class="btn btn-success btn-block btn-lg btns">Who we are</button>
+			<button type="button" class="btn btn-success btn-block btn-lg btns">Video</button>
+			<button type="button" class="btn btn-success btn-block btn-lg btns">Contact</button>
 			
 		</div>    		
     </div>
