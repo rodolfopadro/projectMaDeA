@@ -22,10 +22,11 @@ body{
 #p1{
 	color:#000000;
 	font-size:large;
+	text-align: left;
 }
 #sider{
 	background-color:#419641;
-	height:800px;
+	height:1250px;
 }
 
 .btns{
